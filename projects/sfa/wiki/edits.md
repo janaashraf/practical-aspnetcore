@@ -2,6 +2,7 @@
 - ## Common
 1. add page icon
 2. move pages section to the right
+3. responsiveness
 4. increase nav bar margin bottom
 - ## adding a new page
 5. add "page already exists" alert

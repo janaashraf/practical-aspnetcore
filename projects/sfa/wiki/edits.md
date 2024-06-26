@@ -5,9 +5,8 @@
 4. increase nav bar margin bottom
 - ## adding a new page
 5. add "page already exists" alert
-6. Make the page name "required" to press add new page
-7. increase margin bottom of submit button
-8. increase spacings between "name" and "content" boxes and labels
+6. Make the page name "required"
+7. Add footer
 9. make "content is required" bigger and next to content field
 - ## Showing a page
 10. make attachments appear

@@ -5,7 +5,7 @@
 4. increase nav bar margin bottom
 - ## adding a new page
 5. add "page already exists" alert
-6. Notify the user if the input page title is empty //
+6. Make the page name "required" to press add new page
 7. increase margin bottom of submit button
 8. increase spacings between "name" and "content" boxes and labels
 9. make "content is required" bigger and next to content field

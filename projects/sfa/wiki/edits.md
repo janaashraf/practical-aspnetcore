@@ -2,7 +2,6 @@
 - ## Common
 1. add page icon
 2. move pages section to the right
-3. make pages span bigger
 4. increase nav bar margin bottom
 - ## adding a new page
 5. add "page already exists" alert
@@ -23,3 +22,4 @@
 1. Handling exceptions by using try/catch blocks and providing meaningful responses to users in each endpoint.
 2. Extracting HandleError method that is used in all endpoints.
 3. Extract methods written inside an endpoint to be seen and used in other endpoints such as "ToKebabCase()".
+4. Fixed some typos such as Results.Problem("Progblem in saving page")

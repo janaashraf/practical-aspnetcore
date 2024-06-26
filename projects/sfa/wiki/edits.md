@@ -6,9 +6,10 @@
 4. increase nav bar margin bottom
 - ## adding a new page
 5. add "page already exists" alert
-6. increase margin bottom of submit button
-7. increase spacings between "name" and "content" boxes and labels
-8. make "content is required" bigger and next to content field
+6. Notify the user if the input page title is empty //
+7. increase margin bottom of submit button
+8. increase spacings between "name" and "content" boxes and labels
+9. make "content is required" bigger and next to content field
 - ## Showing a page
 10. make attachments appear
 11. Replace the edit button with pen icon, position it next to the page's title on the left, and add a hover text that says 'edit page'
@@ -16,4 +17,8 @@
 - ## Editing a page
 13. Place exisiting attachments above submit button
 - ## Home page
-14. Replace the edit button with pen icon, position it next to the page's title on the left, and add a hover text that says 'edit page' 
+14. Replace the edit button with pen icon, position it next to the page's title on the left, and add a hover text that says 'edit page'
+
+# Code Improvements
+1. Handling exceptions by using try/catch blocks and providing meaningful responses to users in each endpoint.
+2. Extract methods written inside an endpoint to be seen and used in other endpoints.

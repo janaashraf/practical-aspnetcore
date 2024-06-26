@@ -12,8 +12,6 @@
 10. make attachments appear
 11. Replace the edit button with pen icon, position it next to the page's title on the left, and add a hover text that says 'edit page'
 12. Replace the delete button with rubbish icon, position it next to the page's title on the right, and add a hover text that says 'delete page'
-- ## Editing a page
-13. Place exisiting attachments above submit button
 - ## Home page
 14. Replace the edit button with pen icon, position it next to the page's title on the left, and add a hover text that says 'edit page'
 

@@ -1,1 +1,19 @@
-
+# UI/UX edits
+- ## Common
+1. add page icon
+2. move pages section to the right
+3. make pages span bigger
+4. increase nav bar margin bottom
+- ## adding a new page
+5. add "page already exists" alert
+6. increase margin bottom of submit button
+7. increase spacings between "name" and "content" boxes and labels
+8. make "content is required" bigger and next to content field
+- ## Showing a page
+10. make attachments appear
+11. Replace the edit button with pen icon, position it next to the page's title on the left, and add a hover text that says 'edit page'
+12. Replace the delete button with rubbish icon, position it next to the page's title on the right, and add a hover text that says 'delete page'
+- ## Editing a page
+13. Place exisiting attachments above submit button
+- ## Home page
+14. Replace the edit button with pen icon, position it next to the page's title on the left, and add a hover text that says 'edit page' 

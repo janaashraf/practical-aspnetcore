@@ -21,4 +21,5 @@
 
 # Code Improvements
 1. Handling exceptions by using try/catch blocks and providing meaningful responses to users in each endpoint.
-2. Extract methods written inside an endpoint to be seen and used in other endpoints.
+2. Extracting HandleError method that is used in all endpoints.
+3. Extract methods written inside an endpoint to be seen and used in other endpoints such as "ToKebabCase()".

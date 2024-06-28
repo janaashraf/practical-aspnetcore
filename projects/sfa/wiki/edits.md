@@ -10,9 +10,9 @@
 - ## Showing a page
 10. make attachments appear
 # Added Functionalties
-1. Add a grammer check feature using api.languagetool.org -
-2. Add a button "Get help from wikipedia" that navigates to the desired page but on wikipedia to get some help if needed.  -
-3. Add a chatbot
+1. Add a grammer check feature using api.languagetool.org - add photossss
+2. Add a button "Get help from wikipedia" that navigates to the desired page but on wikipedia to get some help if needed.  -add photosss
+3. Add a chatbot photosss
 # Code Improvements
 1. Handling exceptions by using try/catch blocks and providing meaningful responses to users in each endpoint.
 2. Extracting HandleError method that is used in all endpoints.

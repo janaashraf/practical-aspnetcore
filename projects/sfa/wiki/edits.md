@@ -14,7 +14,11 @@
    
    ![grammar check](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/Screenshot%202024-06-28%20214708.png)
 3. Add a "show tag" feature which shows the topic of the page based on the content using www.uclassify.com
-4. Add a button "Get help from wikipedia" that navigates to the desired page but on wikipedia to get some help if needed.
+
+   ![show tag](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/tags.png)
+5. Add a button "Get help from wikipedia" that navigates to the desired page but on wikipedia to get some help if needed.
+
+   ![wikipedia help](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/wikipedia%20button.png)
 
 # Code Improvements
 1. Handling exceptions by using try/catch blocks and providing meaningful responses to users in each endpoint.

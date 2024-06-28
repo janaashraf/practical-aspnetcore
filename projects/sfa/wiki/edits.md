@@ -37,3 +37,4 @@
 2. Extracted HandleError method that is used in all endpoints.
 3. Extracted methods written inside an endpoint to be seen and used in other endpoints such as "ToKebabCase()".
 4. Fixed some typos such as Results.Problem("Progblem in saving page") and ("_logger.LogWarning($"Page id {id}  is a home page and elete operation on home page is not allowed")
+5. Added comments to improve code readability

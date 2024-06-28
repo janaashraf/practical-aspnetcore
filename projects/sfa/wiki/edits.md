@@ -16,6 +16,18 @@
 3. Add a "show tag" feature which shows the topic of the page based on the content using www.uclassify.com
 
    ![show tag](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/tags.png)
+
+   - I tried to implement this feature using TensorFlow model and Flask API and it worked on postman but i faced an error when i tried to integrate it with the app
+   ### My Code:
+     ![code](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/code.png)
+   ### Postman:
+     
+     ![postman](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/postman.png)
+   ### The error:
+
+     ![error](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/error.png)
+
+
 5. Add a button "Get help from wikipedia" that navigates to the desired page but on wikipedia to get some help if needed.
 
    ![wikipedia help](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/wikipedia%20button.png)

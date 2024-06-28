@@ -1,14 +1,14 @@
 # UI/UX edits
 - ## Common
 1. add page icon
-2. Add footer     -
-3. responsiveness -
+2. Add footer    
+3. responsiveness 
 - ## adding a new page
 5. add "page already exists" alert
-6. Make the page name "required"  -
-9. make "content is required" above content field  -
+6. Make the page name "required"  
+9. make "content is required" above content field  
 - ## Showing a page
-10. make attachments appear
+10. Made attachments appear instead of just showing the link, but when i tried to render the images directly i got an error "Error while handling request for '/attachment System.IO.IOException: The process cannot access the file 'E:\wiki\wiki.db' because it is being used by another process." that i couldn't understand, so i used a modal.
 # Added Functionalties
 1. Add a grammar and style check feature using api.languagetool.org
    

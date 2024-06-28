@@ -17,7 +17,7 @@
 
    ![show tag](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/tags.png)
 
-   - I tried to implement this feature using TensorFlow model and Flask API and it worked on postman but i faced an error when i tried to integrate it with the app
+   - I tried to implement this feature using TensorFlow model and Flask API and it worked on postman but i faced an error when i tried to integrate it with the app and i couldn't solve it.
    ### My Code:
      ![code](https://github.com/janaashraf/practical-aspnetcore/blob/net8.0/projects/sfa/wiki/code.png)
    ### Postman:

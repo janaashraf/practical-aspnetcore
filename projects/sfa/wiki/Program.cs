@@ -466,46 +466,21 @@ static string RenderPageAttachments(Page page)
             currentList = currentList.Append(
                 Li.Append(
                     A.Href($"/attachment?fileId={attachment.FileId}")
-                     .Append(attachment.FileName)
-                )
-            );
+                     .Append(attachment.FileName)));
         }
         else
         {
-            var modalId = attachment.FileName.Split(".")[0];
-
             currentList = currentList.Append(
-                Li.Append(
-                    A.Href($"#{modalId}")
-                     .Attribute("uk-toggle", "")
-                     .Append(attachment.FileName)
-                )
-            );
-
-            currentList = currentList.Append(
-                Div.Id(modalId)
-                   .Attribute("uk-modal", "")
-                   .Append(
-                       Div.Class("uk-modal-dialog uk-modal-body")
-                          .Append(
-                              H2.Class("uk-modal-title")
-                                .Append(attachment.FileName)
-                          )
-                          .Append(
-                              Img.Class("uk-width-1-1")
-                                 .Attribute("src", $"/attachment?fileId={attachment.FileId}")
-                                 .Attribute("loading", "lazy")
-                          )
-
-                   )
-            );
+               Div.Append(
+    Img.Class("uk-width-1-4 uk-height-small") 
+       .Attribute("src", $"/attachment?fileId={attachment.FileId}")
+       .Attribute("loading", "lazy")));
         }
 
         return currentList;
     });
     return label.ToHtmlString() + list.ToHtmlString();
 }
-
 // Build the wiki input form 
 static string BuildForm(PageInput input, string path, AntiforgeryTokenSet antiForgery, ModelStateDictionary? modelState = null)
 {

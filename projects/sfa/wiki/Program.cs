@@ -466,15 +466,17 @@ static string RenderPageAttachments(Page page)
             currentList = currentList.Append(
                 Li.Append(
                     A.Href($"/attachment?fileId={attachment.FileId}")
-                     .Append(attachment.FileName)));
+                     .Append(attachment.FileName)
+                )
+            );
         }
         else
         {
             currentList = currentList.Append(
-               Div.Append(
-    Img.Class("uk-width-1-4 uk-height-small") 
-       .Attribute("src", $"/attachment?fileId={attachment.FileId}")
-       .Attribute("loading", "lazy")));
+                Div.Append(
+                    Img.Class("uk-width-2-3 uk-height-small uk-responsive-width")
+                       .Attribute("src", $"/attachment?fileId={attachment.FileId}")
+                       .Attribute("loading", "lazy")));
         }
 
         return currentList;
@@ -897,7 +899,15 @@ class Wiki
     }
 
     // Get the location of the LiteDB file.
-    string GetDbPath() => Path.Combine(_env.ContentRootPath, "wiki.db");
+   private ConnectionString GetDbPath()
+ {
+     ConnectionString connectionString = new()
+     {
+         Connection = ConnectionType.Shared,
+         Filename = Path.Combine(_env.ContentRootPath, "wiki.db")
+     };
+     return connectionString;
+ }
 
     // List all the available wiki pages. It is cached for 30 minutes.
     public List<Page> ListAllPages()
